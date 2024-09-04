@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="Header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Achievements & Key Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Computer Engineerer</p> -->
+                <h1>Hello, My name is<br><span>Thandokuhle</span> Mandondo</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------about------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="pictures/image.png"> 
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a graduate from Cape Peninsula University of Technology with a Diploma in Engineering Technology in Computer Enginerring.
+                    I am a passionate about inspiring people in tech and helping others evolve into the tech field. As an upcoming computer engineerer,
+                    I am still venturing into this dynamic industry, eager to learn and grow. My goal is to driver innovation and contribute to the growth of the tech
+                    industry, while continuously developing my skills and knowledge. I am comitted to fostering a culture learning and collaboration, and I am to be a 
+                    catalyst for positive change in the tech community.</p>
+                
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div> 
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>C-Programming Language</li>
+                    <li>MATLAB</li>
+                    <li>Simulink</li>
+                    <li>Cisco Networking</li>
+                    <li>Python</li>
+                    <li>Micropython on ESP32</li>
+                    <li>JAVA</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2024 - current</span><br>Graduate Intern at UVU Africa</li>
+                    <li><span>2023 - 2024</span><br>Trainee Technician</li>
+                    <li><span>2018 - 2018</span><br>Phakamisa Soup Kitchen</li>
+                    <li><span>2023 - 2024</span><br>Waitress at DC events</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2009 - 2013</span><br>St Thomas Private School</li>
+                    <li><span>2014 - 2015</span><br>Cambridge Primary School</li>
+                    <li><span>2016 - 2020</span><br>Cambridge High School</li>
+                    <li><span>2021-2023</span><br>Cape Peninsula University of Technology</li>
+                    
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ACHIEVEMENTS AND KEY PROJECTS -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Key Projects</h1>
+        <div class="projects-list">
+            <div>
+                <h2>Edu Pal</h2>
+                <h4>GirlCode Hackathon 2024 - 1st Place in the Western Cape</h4>
+                <p>Designed a learning platform Edu Pal is is dedicated to transform remote education with innovative and intelligent solutions designed to meet the unique need of high school students. Our platform harnesses the power 
+                of advanced technology to create a personalized, engaging, and effective learning experience. </p>
+            </div>
+            <div>
+                <h2>Ayoba BizConnect</h2>
+                <h4>Ayoba Hackathon 2024 - Top 3 in the Western Cape</h4>
+                <p>Participated in the Ayoba Business ChatApp Hackathon, where we explored the Ayoba APIs, by bringing innovative ideas 
+                    to life.
+                </p>
+            
+            </div>
+            <div>
+                <h2>City of Cape Town web app</h2>
+                <h4>City of Cape Town Hackathon 2024 - 2nd Place</h4>
+                <p>Participated at the City of Cape Town's first inaugural hackathon. It was to foster innovation and collaboration among tech enthusiasts,
+                    aiming to develop creative solutions for real-world </p>
+            </div>
+
+
+        </div>
+        
+
+
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>
