@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
     <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
 <div id="header">
@@ -15,11 +19,11 @@
             <nav>
                 <img src="images/logo.png" class="logo">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Key Projects</a></li>
                     <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Achievements & Key Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     
                 </ul>
             </nav>
@@ -90,12 +94,15 @@
         <h1 class="sub-title">My Key Projects</h1>
         <div class="projects-list">
             <div>
+                <i class="uil uil-book-open"></i>
                 <h2>Edu Pal</h2>
                 <h4>GirlCode Hackathon 2024 - 1st Place in the Western Cape</h4>
                 <p>Designed a learning platform Edu Pal is is dedicated to transform remote education with innovative and intelligent solutions designed to meet the unique need of high school students. Our platform harnesses the power 
                 of advanced technology to create a personalized, engaging, and effective learning experience. </p>
             </div>
+
             <div>
+                <i class="uil uil-comment-alt-check"></i>
                 <h2>Ayoba BizConnect</h2>
                 <h4>Ayoba Hackathon 2024 - Top 3 in the Western Cape</h4>
                 <p>Participated in the Ayoba Business ChatApp Hackathon, where we explored the Ayoba APIs, by bringing innovative ideas 
@@ -103,12 +110,16 @@
                 </p>
             
             </div>
+
             <div>
+                <i class="uil uil-map-pin-alt"></i>
                 <h2>City of Cape Town web app</h2>
                 <h4>City of Cape Town Hackathon 2024 - 2nd Place</h4>
                 <p>Participated at the City of Cape Town's first inaugural hackathon. It was to foster innovation and collaboration among tech enthusiasts,
                     aiming to develop creative solutions for real-world </p>
             </div>
+
+            
 
 
         </div>
@@ -119,8 +130,36 @@
 
 </div>
 
+<!-- -------portfolio----- -->
+ 
 
-
+<!-- contact page  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="uil uil-envelopes"></i>thandomandondo1909@gmail.com</p>
+                <p><i class="uil uil-phone"></i>0731921979</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/thandokuhle_mandondo/"><i class="uil uil-instagram"></i></a>
+                    <a href=""><i class="uil uil-whatsapp"></i></a>
+                    <a href="https://github.com/Thandokuhle19"><i class="uil uil-github"></i></a>
+                    <a href="https://www.linkedin.com/in/thandokuhle-mandondo-06a640249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="uil uil-linkedin"></i></a>
+                </div>
+                <a href="pictures/CV for Thandokuhle Mandondo.docx" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
